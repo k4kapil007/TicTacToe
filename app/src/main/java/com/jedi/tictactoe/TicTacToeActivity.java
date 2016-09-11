@@ -10,4 +10,8 @@ public class TicTacToeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tic_tac_toe);
     }
+
+    private int getMaxScore(){
+        return 0;
+    }
 }
